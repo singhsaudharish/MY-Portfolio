@@ -1,0 +1,34 @@
+body {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+  transition: color 0.3s ease;
+}
+
+.contact-button {
+  transition: all 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: scale(1.05);
+}
