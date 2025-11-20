@@ -64,14 +64,7 @@ function createPortfolio() {
             <p class="mb-4">A comprehensive design system for modern web applications</p>
             <a href="#" target="_blank" class="inline-block font-semibold">View Project →</a>
           </div>
-          <div class="project-card rounded-lg p-6">
-            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-4 text-3xl">📱</div>
-            <h3 class="text-xl font-bold mb-2">Mobile App</h3>
-            <p class="mb-4">A sleek mobile experience with intuitive navigation</p>
-            <a href="#" target="_blank" class="inline-block font-semibold">View Project →</a>
-          </div>
-         
-        </div>
+          
       </div>
     </section>
 
@@ -215,4 +208,5 @@ if (window.elementSdk) {
 
 createPortfolio();
 onConfigChange(config);
+
 
