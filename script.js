@@ -59,10 +59,10 @@ function createPortfolio() {
         <h2 id="projects-title" class="mb-12 font-bold text-center"></h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="project-card rounded-lg p-6">
-            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-4 text-3xl">🎨</div>
-            <h3 class="text-xl font-bold mb-2">Design System</h3>
-            <p class="mb-4">A comprehensive design system for modern web applications</p>
-            <a href="#" target="_blank" class="inline-block font-semibold">View Project →</a>
+            <div class="w-16 h-16 rounded-lg flex items-center justify-center mb-4 text-3xl"></div>
+            <h3 class="text-xl font-bold mb-2">AI Assistand</h3>
+            <p class="mb-4">AI Assistand for real-time problem solving</p>
+            <a href="https://singhsaudharish.github.io/AI-Assistant/" class="inline-block font-semibold">View Project →</a>
           </div>
           
       </div>
@@ -208,5 +208,6 @@ if (window.elementSdk) {
 
 createPortfolio();
 onConfigChange(config);
+
 
 
